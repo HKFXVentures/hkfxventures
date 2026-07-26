@@ -1302,22 +1302,41 @@ footer{
     margin: 40px 0;
 }
 
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 40px 0;
+}
+
 .social-icons a {
-    width: 55px;
-    height: 55px;
-    background: #FFD700;
-    color: #000;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 24px;
+    font-size: 30px;
     text-decoration: none;
     transition: 0.3s ease;
 }
 
+.social-icons .fa-whatsapp {
+    color: #25D366;
+}
+
+.social-icons .fa-tiktok {
+    color: #ffffff;
+}
+
+.social-icons .fa-facebook-f {
+    color: #1877F2;
+}
+
+.social-icons .fa-instagram {
+    color: #E4405F;
+}
+
 .social-icons a:hover {
-    background: #ffffff;
-    color: #000;
     transform: scale(1.15);
 }
